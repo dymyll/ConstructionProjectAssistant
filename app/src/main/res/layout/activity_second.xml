@@ -3,28 +3,57 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/orangebg"
+    android:gravity="center_vertical"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:visibility="visible"
     tools:context="com.android.constructionprojectassistant.SecondActivity">
 
+
     <EditText
-        android:id="@+id/edit_text_title"
+        android:id="@+id/edit_text_firstname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Title"
+        android:hint="First Name"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/edit_text_description"
+        android:id="@+id/edit_text_lastname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Description"
-        android:inputType="text"/>
+        android:hint="Last Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Id"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="text" />
+
+
     <Button
+        android:id="@+id/SubmitButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save"
-        android:onClick="saveNote"/>
+        android:background="#708090"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
