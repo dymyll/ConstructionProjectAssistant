@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "909725489229",
+    "firebase_url": "https://constructionprojectassistant.firebaseio.com",
+    "project_id": "constructionprojectassistant",
+    "storage_bucket": "constructionprojectassistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909725489229:android:b3b1d6a2d8e31e89",
+        "android_client_info": {
+          "package_name": "com.android.constructionprojectassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909725489229-di89itgnhgbcd2klar9u5l5akgsngabt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.constructionprojectassistant",
+            "certificate_hash": "8a3a1280cf33976f4c2119f33f29a65fee882af6"
+          }
+        },
+        {
+          "client_id": "909725489229-q1arv8lmbd3obbhomgfug7hd82pco9du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzk8pUsTZjPaVCDgi7qd1kNdbRKiY3Lfs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909725489229-q1arv8lmbd3obbhomgfug7hd82pco9du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
