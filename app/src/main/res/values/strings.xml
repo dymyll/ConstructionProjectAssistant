@@ -8,5 +8,13 @@
     <string name="EmailAddress">Email Address</string>
     <string name="show_subtitle">Show Subtitle</string>
     <string name="Password">Password</string>
+    <string name="logout">Logout</string>
     <string name="title_activity_second">SecondActivity</string>
+
+
+
+
+    <string name="spinnersetup">Salary(monthly)</string>
+    <string name="recurringbills">Recurring Bills</string>
+    <string name="recurring_bills_add">Add bills </string>
 </resources>
