@@ -21,19 +21,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        UserName = (EditText) findViewById(R.id.etName);
-        Password = (EditText)findViewById(R.id.etPassword);
-        Info = (TextView) findViewById(R.id.tvInfo);
-        SignUp = (TextView)findViewById(R.id.etSignUp);
-        Login = (Button)findViewById(R.id.btnLogin);
+        //setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
+//        UserName = (EditText) findViewById(R.id.etName);
+//        Password = (EditText)findViewById(R.id.etPassword);
+//        Info = (TextView) findViewById(R.id.tvInfo);
+//        SignUp = (TextView)findViewById(R.id.etSignUp);
+//        Login = (Button)findViewById(R.id.btnLogin);
 
     }
 
-    private  void validate(String userName, String userPassword){
-        if((userName == "Admin") && (userPassword == "1234")){
-            Intent intent = new Intent (MainActivity.this, SecondActivity.class);
-        }
-    }
+//    private  void validate(String userName, String userPassword){
+//        if((userName == "Admin") && (userPassword == "1234")){
+//            Intent intent = new Intent (MainActivity.this, SecondActivity.class);
+//        }
+//    }
 }
