@@ -230,6 +230,7 @@ public class CreateProjectActivity extends AppCompatActivity {
                 });
     }
 
+    //Upload pics
         btnUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
