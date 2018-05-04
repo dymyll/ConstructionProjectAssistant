@@ -50,6 +50,7 @@ public class CustomerPageActivity extends AppCompatActivity {
 
     }
 
+
     //rest of app
 
 
@@ -58,6 +59,8 @@ public class CustomerPageActivity extends AppCompatActivity {
         MenuInflater mif = getMenuInflater();
         mif.inflate(R.menu.logout_action, menu);
         return super.onCreateOptionsMenu(menu);
+
+
     }
 
     @Override

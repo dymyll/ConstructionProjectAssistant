@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505833105",
+    "firebase_url": "https://constructionprojectassis-37edb.firebaseio.com",
+    "project_id": "constructionprojectassis-37edb",
+    "storage_bucket": "constructionprojectassis-37edb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505833105:android:b3b1d6a2d8e31e89",
+        "android_client_info": {
+          "package_name": "com.android.constructionprojectassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505833105-lus5r0275gfi6e0rqpk3jt6gb6temvug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.constructionprojectassistant",
+            "certificate_hash": "869a8d5dce1a75757b3cb576421a7ff109390797"
+          }
+        },
+        {
+          "client_id": "505833105-kggkv29meeglovs0fvb1gd7n603moahh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACCBYo8NyG3oEyyrI8WmXyIqGHaXZumDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505833105-kggkv29meeglovs0fvb1gd7n603moahh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
