@@ -120,9 +120,20 @@ public class DarkSkyFetchr {
         }
 
         return items;
+    }
+
+        //parsing JSON
+
+    private void parseItems(List<DarkSkyItem> items, JSONObject jsonBody)
+
+            throws JSONException {
+
+        JSONObject currentlyJsonObject = jsonBody.getJSONObject("currently");
+
 
     }
 }
+
 
 
 
