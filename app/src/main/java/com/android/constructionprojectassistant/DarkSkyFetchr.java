@@ -89,6 +89,13 @@ public class DarkSkyFetchr {
 
     }
 
+//fetchItems method
+
+    public List<DarkSkyItem> fetchItems() {
+
+        List<DarkSkyItem> items = new ArrayList<>();
+
+    }
 }
 
 
