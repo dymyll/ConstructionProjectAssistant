@@ -80,8 +80,16 @@ public class DarkSkyFetchr {
             connection.disconnect();
 
         }
+    }
+
+
+    public String getUrlString(String urlSpec) throws IOException {
+
+        return new String(getUrlBytes(urlSpec));
 
     }
+
 }
+
 
 
