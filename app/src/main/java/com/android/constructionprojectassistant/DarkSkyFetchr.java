@@ -28,6 +28,16 @@ public class DarkSkyFetchr {
 
     private String mLong;
 
+    public DarkSkyFetchr(Pair<Double, Double> latLong)
+
+    {
+        mLat = latLong.first.toString();
+
+        mLong = latLong.second.toString();
+    }
+
+
+
 
 }
 
