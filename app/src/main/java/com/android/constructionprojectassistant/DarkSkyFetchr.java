@@ -95,6 +95,32 @@ public class DarkSkyFetchr {
 
         List<DarkSkyItem> items = new ArrayList<>();
 
+        try {
+
+            String url = "https://api.darksky.net/forecast/" + API_KEY + "/" + mLat + "," + mLong;
+
+            Log.d(TAG, "Generated URL for API call = " + url);
+
+            String jsonString = getUrlString(url);
+
+//            Log.i(TAG, "Received JSON: " + jsonString);
+
+            JSONObject jsonBody = new JSONObject(jsonString);
+
+            parseItems(items, jsonBody);
+
+        } catch (IOException ioe) {
+
+            Log.e(TAG, "Failed to fetch items", ioe);
+
+        } catch (JSONException je) {
+
+            Log.e(TAG, "Failed to parse JSON", je);
+
+        }
+
+        return items;
+
     }
 }
 
