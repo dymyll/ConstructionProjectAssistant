@@ -130,9 +130,43 @@ public class DarkSkyFetchr {
 
         JSONObject currentlyJsonObject = jsonBody.getJSONObject("currently");
 
+        //for testing, ensure object exists
+
+//        Boolean test = currentlyJsonObject.has("summary");
+
+//        Log.i(TAG, "DEBUG: API result has Summary object: " + test.toString());
+
+//        Boolean testTwo = currentlyJsonObject.has("temperature");
+
+//        Log.i(TAG, "DEBUG: API result has temperature object: " + testTwo.toString());
+
+
+//        JSONArray currentlyJsonArray = forecastJsonObject.getJSONArray("currently");
+
+
+//        for (int i = 0; i < weatherJsonArray.length(); i++){
+
+//            JSONObject weatherJsonObject = weatherJsonArray.getJSONObject(i);
+
+
+//        JSONObject forecastJsonObject = currentlyJsonArray.getJSONObject(0);
+
+
+        DarkSkyItem item = new DarkSkyItem();
+
+        item.setmSkyDescription(currentlyJsonObject.getString("summary"));
+
+        item.setmSkyIcon(currentlyJsonObject.getString("icon"));
+
+//            Log.e(TAG, "Set icon text within DarkSky Item = " + item.getmSkyIcon());
+
+        item.setmTemp(currentlyJsonObject.getString("temperature"));
+
+        items.add(item);
 
     }
 }
+
 
 
 
