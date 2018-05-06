@@ -1,59 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/orangebg"
-    android:gravity="center_vertical"
-    android:orientation="vertical"
-    android:visibility="visible"
+    android:layout_height="match_parent"
     tools:context="com.android.constructionprojectassistant.SecondActivity">
 
-
-    <EditText
-        android:id="@+id/edit_text_firstname"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="First Name"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/edit_text_lastname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Last Name"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/edit_text_userid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="User Id"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/edit_text_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/edit_text_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="text" />
-
-
-    <Button
-        android:id="@+id/SubmitButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#708090"
-        android:text="Submit"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-</LinearLayout>
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Welcome!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
