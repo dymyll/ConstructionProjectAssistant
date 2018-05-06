@@ -36,8 +36,14 @@ public class DarkSkyFetchr {
         mLong = latLong.second.toString();
     }
 
+    public byte[] getUrlBytes(String urlSpec) throws IOException {
+
+        URL url = new URL(urlSpec);
+
+        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
 
+    }
 
 }
 
